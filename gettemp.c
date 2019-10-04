@@ -4,15 +4,15 @@
 #define PASS_A   "/sys/class/hwmon/hwmon"
 #define PASS_B   "/temp1_input"
 #define ERRHWMON "Hardware Monitor not found\n"
-#define MAX 100
-#define CHALLE 20
+#define MAX      100
+#define CHALLE   20
 
 int gettemp()
 {
   FILE *fp1;
   char c[MAX];
-  int i=0;
-  int temp;
+  int  i=0;
+  int  temp;
 
   while(1){
   snprintf(c, MAX, "%s%d%s", PASS_A, i, PASS_B);
