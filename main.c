@@ -26,10 +26,8 @@ int main()
   while(1){
 
     getusage(thread,usage);
-    temp = gettemp();
-    termout(model,thread,temp,usage);
-    mem = getmem(1);
-    termmem(mem);
+    termout(model,thread,gettemp(),usage);
+    termmem(getmem(1));
 
   }
 

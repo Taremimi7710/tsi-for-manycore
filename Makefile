@@ -5,7 +5,7 @@
 CC = icc
 
 #Compiler flags.
-#CFLAGS = -S
+CFLAGS = -w
 
 tsi : main.o getmem.o getmodel.o gettemp.o getthread.o getusage.o termout.o termmem.o
 	$(CC) $(CFLAGS) main.o getmem.o getmodel.o gettemp.o getthread.o getusage.o termout.o termmem.o -o tsi
