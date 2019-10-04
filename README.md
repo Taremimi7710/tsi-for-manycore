@@ -11,4 +11,6 @@ Description.
 Version 
   Ver1.00 2019/10/14 22:00
     First Version. 
-
+    
+  Ver1.02 2019/10/25 0:40
+    Bug Fix.
